@@ -17,32 +17,7 @@ class ImageClassifier:
         self.time_search = 0
         self.count_frame = 0
         self.top_k = 5
-        self.test_images = 'roi_test'
-        self.path_t = 'roi_data'
 
-    def new_class(self):
-        self.test_paths = os.listdir(self.test_images)
-        self.image_class = dict()
-        self.class_image = dict()
-        for f in self.test_paths:
-            self.image = f.split(".")[0]
-            self.image_class[self.image] = [self.image]
-            self.class_image[self.image] = self.image
-            classifier.add_img(os.path.join(self.test_images, f), f)
-
-    def predict_dist(self):
-        for self.data_img in os.listdir(self.path_t):
-            frame = cv2.imread(os.path.join(self.path_t, self.data_img))
-            name, dist = classifier.predict(frame)
-            name = name.split(".")[0]
-            data_name = self.data_img.split(".")[0]
-            if dist >= 0.6:
-                print(self.class_image[name], dist, "OK")
-                classifier.add_img(os.path.join(self.path_t, self.data_img), self.data_img)
-                self.image_class[self.class_image[name]].append(data_name)
-                self.class_image[data_name] = self.class_image[name]
-            else:
-                print(name, dist, "MISS")
     def extract_features_from_img(self, cur_img):
         cur_img = cv2.resize(cur_img, (224, 224))
         img = preprocess_input(cur_img)
@@ -57,7 +32,7 @@ class ImageClassifier:
         self.predict_time += time.time() - before_time
         max_distance = 0
         result_dish = 0
-        pr_time = time.time()
+
         for dish, features_all in self.all_skus.items():
             for features in features_all:
                 cur_distance = self.model.cosine_distance(target_features, features)
@@ -65,6 +40,7 @@ class ImageClassifier:
                 if cur_distance > max_distance:
                     max_distance = cur_distance
                     result_dish = dish
+        print(self.predict_time, result_dish)
         return result_dish, max_distance
 
     def add_img(self, img_path, id_img):
@@ -95,6 +71,22 @@ class ImageClassifier:
         json_res["RPS"] = self.count_frame / (self.predict_time + self.time_search)
         return json_res
 
-classifier = ImageClassifier()
-classifier.new_class()
-classifier.predict_dist()
+
+if __name__ == "__main__":
+    test_images = 'roi_test'
+    path_t = 'roi_data'
+    performance_time = time.time()
+    classifier = ImageClassifier()
+    print("Инициализация ImageClassifier",  time.time() - performance_time)
+
+    performance_time = time.time()
+    test_paths = os.listdir(test_images)
+    for f in test_paths:
+        classifier.add_img(os.path.join(test_images, f), f)
+    print("Добавление одного фото classifier.add_img", (time.time() - performance_time) / 5)
+
+    performance_time = time.time()
+    for data_img in os.listdir(path_t):
+        frame = cv2.imread(os.path.join(path_t, data_img))
+        name, dist = classifier.predict(frame)
+    print("Обработка 1500 фото", time.time() - performance_time)
