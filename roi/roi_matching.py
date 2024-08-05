@@ -6,7 +6,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.applications.mobilenet import preprocess_input
 
-from roi.model_util import DeepModel
+from model_util import DeepModel
 
 
 class ImageClassifier:
@@ -72,8 +72,8 @@ class ImageClassifier:
 
 
 if __name__ == "__main__":
-    test_images = 'roi_test'
-    path_t = 'roi_data'
+    test_images = 'roi_data'
+    path_t = 'roi_test'
     performance_time = time.time()
     classifier = ImageClassifier()
     print("Инициализация ImageClassifier",  time.time() - performance_time)

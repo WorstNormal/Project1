@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a08c0a0f-1e75-4940-8c3c-d4d828cd9e5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/roi_data/bottle_data_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/bottle_data_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/cactus_data_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/cactus_data_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/glass_data_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/glass_data_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/glass_data_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/headphones_data_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/headphones_data_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/sneaker_data_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_data/sneaker_data_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/roi_matching_1_0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_data/bottle_data.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/bottle_data_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_data/cactus_data.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/cactus_data_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_data/glass_data.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_data/headphones_data.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/headphones_data_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_data/sneaker_data.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/sneaker_data_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_data_legacy/output.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../roi_legacy/roi_data_legacy/output.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/bottle_data_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/bottle_data_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/bottle_data_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/bottle_data_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/bottle_data_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/bottle_data_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/cactus_data_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/cactus_data_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/cactus_data_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/cactus_data_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/cactus_data_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/cactus_data_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/glass_data_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/glass_data_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/glass_data_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/glass_data_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/glass_data_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/glass_data_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/headphones_data_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/headphones_data_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/headphones_data_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/headphones_data_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/headphones_data_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/headphones_data_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/sneaker_data_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/sneaker_data_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/sneaker_data_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/sneaker_data_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_data/sneaker_data_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_test/sneaker_data_3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/roi_matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/roi_matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_matching_legacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../roi_legacy/roi_matching_legacy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roi_test_legacy/roi_test1_contour.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../roi_legacy/roi_test_legacy/roi_test1_contour.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_roi.avi" beforeDir="false" afterPath="$PROJECT_DIR$/../roi_legacy/test_roi.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_matching_1_0.py" beforeDir="false" afterPath="$PROJECT_DIR$/roi_matching_1_0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_test/bottle.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/bottle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_test/cactus.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/cactus.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_test/glass.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/glass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_test/headphones.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/headphones.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roi_test/sneaker.png" beforeDir="false" afterPath="$PROJECT_DIR$/roi_data/sneaker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/image_render.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/image_render.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,22 +41,23 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "WorstNormal"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WorstNormal&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/WorstNormal/Project1.git",
-    "accountId": "b5d66971-2487-4ce7-93c9-2b92c5a8b65b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/WorstNormal/Project1.git&quot;,
+    &quot;accountId&quot;: &quot;b5d66971-2487-4ce7-93c9-2b92c5a8b65b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2iPnAIAVY0Jlpx6YACV7uXhsFYX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -58,11 +65,41 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Project"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="roi" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

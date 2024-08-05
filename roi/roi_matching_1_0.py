@@ -73,8 +73,8 @@ class ImageClassifier:
 
 
 if __name__ == "__main__":
-    test_images = 'roi_test'
-    path_t = 'roi_data'
+    test_images = 'roi_data'
+    path_t = 'roi_test'
     performance_time = time.time()
     classifier = ImageClassifier()
     print("Инициализация ImageClassifier",  time.time() - performance_time)
